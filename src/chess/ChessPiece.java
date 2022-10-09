@@ -9,6 +9,7 @@ public class ChessPiece extends Piece{
 	
 	public ChessPiece(Board board, Color color) {
 		super(board);
+		this.color = color;
 		// TODO Auto-generated constructor stub
 	}
 
